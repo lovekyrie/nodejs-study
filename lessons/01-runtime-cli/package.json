@@ -1,0 +1,6 @@
+{
+  "name": "@nodejs-study/01-runtime-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module"
+}

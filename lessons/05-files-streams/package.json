@@ -1,0 +1,6 @@
+{
+  "name": "@nodejs-study/05-files-streams",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module"
+}

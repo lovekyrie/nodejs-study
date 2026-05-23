@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-study",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.6.0",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lesson:01": "node --import tsx lessons/01-runtime-cli/src/index.ts",
+    "lesson:02": "node --import tsx lessons/02-rps-cli/src/index.ts",
+    "lesson:03": "node --import tsx lessons/03-modules/src/index.ts",
+    "lesson:04": "node --import tsx lessons/04-events-async-io/src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  }
+}

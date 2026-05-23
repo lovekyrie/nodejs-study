@@ -1,0 +1,6 @@
+{
+  "name": "@nodejs-study/08-production",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module"
+}

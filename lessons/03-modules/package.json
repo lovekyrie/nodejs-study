@@ -1,0 +1,6 @@
+{
+  "name": "@nodejs-study/03-modules",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module"
+}
