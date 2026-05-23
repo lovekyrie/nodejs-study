@@ -7,11 +7,23 @@
     "types": ["node"],
     "strict": true,
     "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nodejs-study/config": ["packages/config/src/index.ts"],
+      "@nodejs-study/contracts": ["packages/contracts/src/index.ts"],
+      "@nodejs-study/database": ["packages/database/src/index.ts"]
+    },
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "skipLibCheck": true
   },
-  "include": ["lessons/**/*.ts", "vitest.config.ts"],
+  "include": [
+    "apps/**/*.ts",
+    "packages/**/*.ts",
+    "lessons/00-foundation-warmup/**/*.ts",
+    "vitest.config.ts",
+    "vitest.integration.config.ts"
+  ],
   "exclude": ["legacy", "node_modules", "dist", "coverage"]
 }

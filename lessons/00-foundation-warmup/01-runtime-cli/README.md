@@ -13,4 +13,6 @@
 
 ```bash
 pnpm lesson:01 hello node
+
+pnpm --filter @nodejs-study/01-runtime-cli test
 ```

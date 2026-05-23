@@ -22,6 +22,7 @@ describe('runtime cli helpers', () => {
       cwd: '/project',
       mode: 'development',
       args: [],
+      port: 4000,
     })
 
     expect(output).toContain('Node: v22.0.0')

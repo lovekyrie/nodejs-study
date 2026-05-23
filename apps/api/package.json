@@ -1,0 +1,19 @@
+{
+  "name": "@nodejs-study/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file .env --import tsx src/index.ts",
+    "start": "node --env-file .env --import tsx src/index.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fastify/swagger": "^9.7.0",
+    "@fastify/swagger-ui": "^5.2.6",
+    "@nodejs-study/config": "workspace:*",
+    "@nodejs-study/contracts": "workspace:*",
+    "fastify": "^5.8.5"
+  }
+}

@@ -1,2 +1,4 @@
 packages:
-  - "lessons/*"
+  - "apps/*"
+  - "packages/*"
+  - "lessons/00-foundation-warmup/*"

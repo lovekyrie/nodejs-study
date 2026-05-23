@@ -5,7 +5,8 @@ export interface RuntimeInfo {
   platform: NodeJS.Platform
   cwd: string
   mode: string
-  args: string[]
+  args: string[],
+  port: number
 }
 
 export function normalizeCliArgs(args: string[]): string[] {
@@ -23,6 +24,7 @@ export function collectRuntimeInfo(
     cwd: process.cwd(), // 当前工作目录
     mode: env.NODE_ENV ?? 'development', // 环境变量
     args: normalizeCliArgs(args), // 命令行参数 
+    port: Number(env.PORT) ?? 3000,
   }
 }
 
@@ -35,6 +37,7 @@ export function formatRuntimeInfo(info: RuntimeInfo): string {
     `Mode: ${info.mode}`,
     `CWD: ${info.cwd}`,
     `Args: ${args}`,
+    `Port: ${info.port}`,
   ].join('\n')
 }
 
