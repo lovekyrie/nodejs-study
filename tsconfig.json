@@ -21,7 +21,7 @@
   "include": [
     "apps/**/*.ts",
     "packages/**/*.ts",
-    "lessons/00-foundation-warmup/**/*.ts",
+    "lessons/**/*.ts",
     "vitest.config.ts",
     "vitest.integration.config.ts"
   ],

@@ -10,7 +10,7 @@ packages/contracts
 packages/database
 ```
 
-`apps/*` 是进程入口，`packages/*` 是共享能力。正式业务代码不依赖 `lessons/00-foundation-warmup`。
+`apps/*` 是进程入口，`packages/*` 是共享能力。正式业务代码不依赖 `lessons/*`。
 
 ## API 进程
 

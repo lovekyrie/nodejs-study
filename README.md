@@ -49,7 +49,7 @@ packages/config             环境变量与运行配置
 packages/contracts          共享 DTO、错误码、响应类型
 packages/database           Prisma schema、迁移入口、seed
 docs                        课程路线、架构、API、部署和测试文档
-lessons/00-foundation-warmup 旧 Node 入门 lesson，作为正式课程前的热身
+lessons/*                    Node 入门 lesson（01-08）
 legacy                      重构前的原始示例
 ```
 

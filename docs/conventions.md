@@ -2,7 +2,7 @@
 
 ## 代码组织
 
-- 正式课程代码放在 `apps/*` 和 `packages/*`，旧入门 lesson 只保留在 `lessons/00-foundation-warmup/*`。
+- 正式课程代码放在 `apps/*` 和 `packages/*`，入门 lesson 放在 `lessons/*`。
 - `apps/api` 只负责 HTTP 边界、Fastify plugin、request/response、认证中间件和 API composition。
 - `apps/worker` 只负责 BullMQ worker 进程、job handler 和任务生命周期。
 - `packages/config` 负责环境变量解析和运行配置，业务代码不要直接散落读取 `process.env`。

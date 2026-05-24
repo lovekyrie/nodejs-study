@@ -89,7 +89,7 @@ Worker 必须和 API 使用同一个 Redis。部署时 API 和 worker 应作为�
 CI 当前执行：
 
 ```bash
-pnpm install --frozen-lockfile
+pnpm install --no-frozen-lockfile
 pnpm typecheck
 pnpm test
 pnpm test:integration

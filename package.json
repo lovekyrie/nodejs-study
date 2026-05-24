@@ -17,10 +17,10 @@
     "test:integration": "vitest run --config vitest.integration.config.ts",
     "test:watch": "vitest",
     "typecheck": "pnpm db:generate && tsc --noEmit",
-    "lesson:01": "node --env-file .env --import tsx lessons/00-foundation-warmup/01-runtime-cli/src/index.ts",
-    "lesson:02": "node --import tsx lessons/00-foundation-warmup/02-rps-cli/src/index.ts",
-    "lesson:03": "node --import tsx lessons/00-foundation-warmup/03-modules/src/index.ts",
-    "lesson:04": "node --import tsx lessons/00-foundation-warmup/04-events-async-io/src/index.ts"
+    "lesson:01": "node --env-file .env --import tsx lessons/01-runtime-cli/src/index.ts",
+    "lesson:02": "node --import tsx lessons/02-rps-cli/src/index.ts",
+    "lesson:03": "node --import tsx lessons/03-modules/src/index.ts",
+    "lesson:04": "node --import tsx lessons/04-events-async-io/src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^24.12.4",
