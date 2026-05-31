@@ -1,6 +1,7 @@
 node_modules/
 dist/
 coverage/
+.data/
 packages/database/src/generated/
 .env
 .env.*

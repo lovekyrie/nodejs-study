@@ -53,14 +53,20 @@ lessons/*                    Node 入门 lesson（01-08）
 legacy                      重构前的原始示例
 ```
 
-旧 lesson 仍可运行：
+入门示例仍可独立运行：
 
 ```bash
 pnpm lesson:01 hello node
 pnpm lesson:02 rock
 pnpm lesson:03
 pnpm lesson:04
+pnpm lesson:05 README.md
+pnpm lesson:06
+pnpm lesson:07 add "first saved note" "persisted on disk"
+pnpm lesson:08
 ```
+
+其中 `lesson:06` 和 `lesson:08` 会启动 HTTP 服务，分别监听默认端口 `3001` 与 `3002`。
 
 ## 当前交付
 

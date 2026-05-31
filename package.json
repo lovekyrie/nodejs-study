@@ -13,6 +13,9 @@
     "dev:worker": "pnpm --filter @nodejs-study/worker dev",
     "db:generate": "pnpm --filter @nodejs-study/database prisma:generate",
     "db:validate": "pnpm --filter @nodejs-study/database prisma:validate",
+    "db:dev": "pnpm --filter @nodejs-study/database migrate:dev",
+    "db:deploy": "pnpm --filter @nodejs-study/database migrate:deploy",
+    "db:seed": "pnpm --filter @nodejs-study/database seed",
     "test": "vitest run",
     "test:integration": "vitest run --config vitest.integration.config.ts",
     "test:watch": "vitest",
@@ -20,7 +23,11 @@
     "lesson:01": "node --env-file .env --import tsx lessons/01-runtime-cli/src/index.ts",
     "lesson:02": "node --import tsx lessons/02-rps-cli/src/index.ts",
     "lesson:03": "node --import tsx lessons/03-modules/src/index.ts",
-    "lesson:04": "node --import tsx lessons/04-events-async-io/src/index.ts"
+    "lesson:04": "node --import tsx lessons/04-events-async-io/src/index.ts",
+    "lesson:05": "node --import tsx lessons/05-files-streams/src/index.ts",
+    "lesson:06": "node --import tsx lessons/06-http-api/src/index.ts",
+    "lesson:07": "node --import tsx lessons/07-data-persistence/src/index.ts",
+    "lesson:08": "node --import tsx lessons/08-production/src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^24.12.4",

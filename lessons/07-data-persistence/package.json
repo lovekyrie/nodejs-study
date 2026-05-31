@@ -2,5 +2,8 @@
   "name": "@nodejs-study/07-data-persistence",
   "version": "0.1.0",
   "private": true,
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  }
 }
